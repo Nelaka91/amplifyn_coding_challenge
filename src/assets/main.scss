@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  transition: all 0.1s ease;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: hsla(225, 3%, 24%, 1);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
